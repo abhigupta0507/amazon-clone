@@ -1,0 +1,47 @@
+.second-header
+{
+    height:42px;
+    background-color: rgb(3, 104, 91);
+    color:white;
+    display:flex;
+    font-size:14px;
+    align-items: center;
+}
+
+.all
+{
+    display:flex;
+    margin-left:10px;
+    align-items: center;
+    font-weight:bold;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.deals,.registry,.gift,.customer-service,.sell
+{
+    display:flex;
+    margin-left:6px;
+    align-items: center;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.all:hover,.deals:hover,.registry:hover,.gift:hover,.customer-service:hover,.sell:hover
+{
+    border-style:solid;
+    border-color:white;
+    border-width:1px;
+    cursor:pointer;
+}
+
+.hamburgur-menu
+{
+    width:26px;
+    margin-right:3px;
+    margin-top:4px;
+}

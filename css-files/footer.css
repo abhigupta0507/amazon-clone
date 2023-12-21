@@ -1,0 +1,244 @@
+
+.new-account
+{
+    margin-top:40px;
+    border-style:solid;
+    border-width:1px;
+    border-color:rgb(180, 176, 176);
+    display:grid;
+    grid-template-columns: 1fr;
+    row-gap:5px;
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align:center; 
+}
+
+.title-text-new-account
+{
+    font-size:13px;
+    font-family:roboto;
+    font-weight:400;
+}
+
+.sign-in-new-account
+{
+    width:230px;
+    height:30px;
+    font-weight:700;
+    font-family:arial;
+    border-radius:6px;
+    font-size:12px;
+    border-style:solid;
+    border-color:rgb(246, 189, 1);
+    background-color: rgb(248, 209, 66);
+}
+.sign-in-new-account:hover
+{
+    cursor:pointer;
+    opacity:0.9;
+}
+
+.ending-text-new-account
+{
+    font-size:12px;
+    font-family:roboto;
+}
+
+.link-new-account
+{
+    color:rgb(19, 110, 146);
+}
+
+.link-new-account:hover{
+    color:rgb(178, 69, 69);
+    cursor:pointer;
+}
+
+.back-to-top
+{
+    margin-top:30px;
+    background-color:#455565;
+    color:white;
+    text-align:center;
+    height:40px;
+    padding-top:20px;
+    font-size:14px;
+}
+
+.back-to-top:hover
+{
+    opacity:0.8;
+    cursor:pointer;
+}
+
+.know-more
+{
+    padding-top:40px;
+    margin-left:70px;
+    padding-bottom:80px;
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap:70px;
+    justify-content: center;
+    color:white;
+}
+
+.title-2{
+    margin-left:0;
+    font-size:16px;
+    margin-bottom:10px;
+    font-weight:700;
+}
+
+.list
+{
+    text-align:left;
+    font-size:14px;
+    display:grid;
+    row-gap:10px;
+}
+
+.container-know-more
+{
+    background-color:#223342 ;
+    border-bottom-color: rgb(180, 176, 176);
+    border-style: solid;
+    border-width:1px;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+}
+
+.list-element:hover
+{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.convertor
+{
+    background-color: #223342;
+    height:140px;
+}
+
+.convertor-container
+{
+    display:flex;
+    padding-top:50px;
+}
+
+.logo-footer
+{
+    margin-left:330px;
+    width:100px;
+    margin-right:60px;
+}
+
+.logo-footer-image
+{
+    margin-top:-10px;
+    width:100px;
+}
+
+
+.language-footer,.money-footer
+{
+   margin-right:10px;
+   vertical-align: center;
+}
+
+.language-footer-button,.money-footer-button,.country-footer-button
+{
+   background-color: #223342;
+   color:rgb(207, 203, 203);
+   padding-top:8px;
+   padding-bottom:8px;
+   padding-left:9px;
+   padding-right:20px;
+   border-style: solid;
+   border-width:1px;
+   border-color:rgb(180, 176, 176);
+   border-radius:3px;
+}
+
+.language-footer-button:hover,.logo-footer-image,.money-footer-button:hover,.country-footer-button:hover
+{
+    cursor:pointer;
+    opacity:0.9;
+}
+
+.flag-footer
+{
+    width:20px;
+}
+
+.sphere
+{
+    width:13px;
+}
+
+.others-container
+{
+    background-color: rgb(36, 36, 36);
+    height:320px;
+}
+
+.others-grid
+{
+    padding-top:30px;
+    display:grid;
+    grid-template-columns: 110px 110px 110px 110px 110px 110px 110px;
+    column-gap:40px;
+    row-gap:40px;
+    justify-content: center;
+}
+
+.others-title
+{
+    color:white;
+    font-size:12px;
+}
+
+.others-description
+{
+    font-size:12px;
+    color:grey;
+}
+
+.others-title:hover,.others-description:hover
+{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.end-footer
+{
+    background-color:  rgb(36, 36, 36);
+    color:white;
+}
+
+.options-end-footer
+{
+    display:flex;
+    justify-content: center;
+}
+
+.options
+{
+    margin-right:20px;
+    font-size:12px;
+}
+
+.options:hover
+{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.cc
+{
+    text-align:center;
+    font-size:12px;
+    margin-top:5px;
+    padding-bottom:30px;
+}

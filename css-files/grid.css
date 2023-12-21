@@ -1,0 +1,177 @@
+
+.container
+{
+    background-color: rgb(180, 176, 176);
+}
+
+
+.grid
+{
+
+    display:grid;
+    grid-template-columns: 290px 290px 290px 290px;
+    column-gap: 20px;
+    row-gap:20px;
+    background-color: rgb(180, 176, 176);
+    margin-left:20px;
+}
+
+.box-1,.box-2
+{ 
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top:30px;
+    padding-left:15px;
+    padding-right:15px;
+    height:360px;
+    flex:1;
+}
+
+.title
+{
+    margin-top:15px;
+    text-align: center;
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:20px;
+
+}
+
+.see-more
+{
+    color:rgb(64, 141, 223);
+    font-size:14px;
+    margin-top:30px;
+    margin-left:20px;
+    
+}
+
+.see-more:hover,.long-box-link:hover
+{
+    cursor:pointer;
+    text-decoration: underline;
+    color:rgb(200, 20, 20);
+}
+
+.items
+{
+   display:flex;
+   flex-direction: column;
+   
+}
+
+.row-1
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+
+.row-2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headsets
+{
+   display:flex;
+   flex-direction: column;
+   margin-right:15px;
+   margin-left:15px;
+}
+
+.headset-photo
+{
+   width:100px;
+}
+
+.headset-image
+{
+   width:100px;
+   height:90px;
+}
+
+.name-of-item
+{
+   font-size:12px;
+   text-align:center;
+}
+
+.toys-photo
+{
+    margin-right:5px;
+    width:260px;
+    height:232px;
+}
+
+.toys-photo:hover,.headsets:hover
+{
+    cursor:pointer;
+}
+
+.long-box
+{
+   display: flex;
+   flex-direction: column;
+    
+    background-color: white;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    padding-left:20px;
+}
+
+.title
+{
+     display:block;
+     text-align:left;
+     margin-top:20px;
+     margin-left:20px;
+}
+
+.long-box-link
+{
+    margin-left:25px;
+    color:rgb(64, 141, 223);
+    font-size:16px;
+}
+
+.photos-bigbox
+{
+   margin-left:20px;
+   display:flex;
+   justify-content: space-between;
+   margin-right:20px;
+   margin-bottom:30px;
+}
+
+.image-in-bigbox
+{
+    width:200px;
+    cursor:pointer;
+}
+
+.image-in-bigbox-2
+{
+    width:150px;
+    height:210px;
+    cursor:pointer;
+}
+
+.box-1-photo-2
+{
+    width:255px;
+}
+
+.box-4-image-2
+{
+    width:110px;
+}
+
+.coverup
+{
+    background-color: rgb(180, 176, 176);
+    height:30px;
+}
